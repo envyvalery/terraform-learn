@@ -1,0 +1,12 @@
+#local terraform directory
+.terraform/*
+
+#terraform state file
+
+*.tfstate
+*.tfstate.backup
+*.tfstate.*
+
+#tfvars file, which contains the secret access key
+*.tfvars
+
